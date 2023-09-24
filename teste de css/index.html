@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/aesthetic.css">
+  <title>CSSteste</title>
+</head>
+
+<body>
+
+  <h1>interativo css</h1>
+  <hr>
+  <h2>transition opacity</h2>
+  <p>também funciona para background color</p>
+  
+  <section>
+    <div class="green transitionopacity">verde</div>
+    <div class="red transitionopacity">vermelho</div>
+    <div class="blue transitionopacity">azul</div>
+    <div class="yellow transitionopacity">amarelo</div>
+    <button class="botao" onclick="abrir()"><i class="bi bi-braces"></i></button>
+  </section>
+
+  <br>
+  <section>
+    <div class="green transitionbackground">verde</div>
+    <div class="red transitionbackground">vermelho</div>
+    <div class="blue transitionbackground">azul</div>
+    <div class="yellow transitionbackground">amarelo</div>
+    <button class="botao" onclick="abrir1()"><i class="bi bi-braces"></i></button>
+  </section>
+<hr>
+  <h2>transition rotate</h2>
+  <p>funciona para qualquer lado</p>
+
+  <section>
+    <div class="green transitionrotate">verde</div>
+    <div class="red transitionrotate">vermelho</div>
+    <div class="blue transitionrotate">azul</div>
+    <div class="yellow transitionrotate">amarelo</div>
+    <button class="botao" onclick="abrir2()"><i class="bi bi-braces"></i></button>
+  </section>
+  <hr>
+  <h2>transition scale</h2>
+  <p>serve para qualquer tamanho</p>
+  
+  <section>
+    <div class="green transitionscale">verde</div>
+    <div class="red transitionscale">vermelho</div>
+    <div class="blue transitionscale">azul</div>
+    <div class="yellow transitionscale">amarelo</div>
+    <button class="botao" onclick="abrir3()"><i class="bi bi-braces"></i></button>
+  </section>
+  <br>
+  <section>
+    <div class="green transitionscaleminus">verde</div>
+    <div class="red transitionscaleminus">vermelho</div>
+    <div class="blue transitionscaleminus">azul</div>
+    <div class="yellow transitionscaleminus">amarelo</div>
+    <button class="botao" onclick="abrir4()"><i class="bi bi-braces"></i></button>
+  </section>
+  <br>
+  <hr>
+  <button id="btn2" onclick="anmbt()">clique para ver a animação</button>
+  <button class="botao" onclick="abrir5()"><i class="bi bi-braces"></i></button>
+<div id="load">
+  <div id="animacao" class=""></div>
+</div>
+
+<!--links-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="/java.js"></script>
+</body>
+
+</html>
